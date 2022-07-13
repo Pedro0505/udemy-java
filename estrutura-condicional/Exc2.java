@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
 public class Exc2 {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-    int num;
+        int num;
 
-    System.out.println("Digite um número:");
+        System.out.println("Digite um número:");
 
-    num = sc.nextInt();
+        num = sc.nextInt();
 
-    if (num % 2 == 0) {
-      System.out.println("Par");
-    } else {
-      System.out.println("Ímpar");
+        if (num % 2 == 0) {
+            System.out.println("Par");
+        } else {
+            System.out.println("Ímpar");
+        }
+
+        sc.close();
     }
-
-    sc.close();
-  }   
 }
