@@ -1,6 +1,8 @@
+package estruturaCondicional;
+
 import java.util.Scanner;
 
-public class Exc1 {
+public class Exc2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -10,10 +12,10 @@ public class Exc1 {
 
         num = sc.nextInt();
 
-        if (num < 0) {
-            System.out.println("Negativo");
+        if (num % 2 == 0) {
+            System.out.println("Par");
         } else {
-            System.out.println("Não Negativo");
+            System.out.println("Ímpar");
         }
 
         sc.close();

@@ -1,3 +1,5 @@
+package estruturaSequencial;
+
 import java.util.Scanner;
 
 public class Exc1 {

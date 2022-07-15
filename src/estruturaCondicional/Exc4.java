@@ -1,3 +1,5 @@
+package estruturaCondicional;
+
 import java.util.Scanner;
 
 public class Exc4 {

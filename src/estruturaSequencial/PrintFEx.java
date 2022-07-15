@@ -1,3 +1,5 @@
+package estruturaSequencial;
+
 import java.util.Locale;
 
 public class PrintFEx {
