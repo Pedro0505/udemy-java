@@ -1,4 +1,4 @@
-package excFixVetores.highest_position.application;
+package excFixVetores.pairNumbers.application;
 
 import java.util.Scanner;
 
@@ -8,26 +8,27 @@ public class Program {
 
         System.out.print("Quantos numeros voce vai digitar? ");
         int numbers = sc.nextInt();
-        int numberPosition = 0;
-        double biggesterNumber = 0.00;
         
-        double[] vect = new double[numbers];
+        int[] vect = new int[numbers];
+        int evenNumbers = 0;
 
         for (int i = 0; i < vect.length; i += 1) {
             System.out.print("Digite um numero: ");
-            double number = sc.nextDouble();
+            int number = sc.nextInt();
             vect[i] = number;
         }
 
+        System.out.println("NUMEROS PARES: ");
+
         for (int i = 0; i < vect.length; i += 1) {
-            if (vect[i] > biggesterNumber) {
-                biggesterNumber = vect[i];
-                numberPosition = i;
+            if (vect[i] % 2 == 0) {
+                evenNumbers += 1;
+                System.out.printf("%d ", vect[i]);
             }
         }
 
-        System.out.printf("MAIOR VALOR = %.2f\n", biggesterNumber);
-        System.out.printf("POSICAO DO MAIOR VALOR = %d\n", numberPosition);
+        System.out.println();
+        System.out.printf("QUANTIDADE DE PARES = %d\n", evenNumbers);
 
         sc.close();
     }
