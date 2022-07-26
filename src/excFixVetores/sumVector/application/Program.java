@@ -1,4 +1,4 @@
-package excFixVetores.vectorSum.application;
+package excFixVetores.sumVector.application;
 
 import java.util.Scanner;
 
