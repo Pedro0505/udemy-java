@@ -1,4 +1,4 @@
-package introducaoPOO.ExcFix2.entites;
+package introducaoPOO.ExcFix2.entities;
 
 public class Employee {
     public String name;

@@ -1,4 +1,4 @@
-package introducaoPOO.ExcFix3.entites;
+package introducaoPOO.ExcFix3.entities;
 
 public class Student {
     public double firstGrade;

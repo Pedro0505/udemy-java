@@ -1,4 +1,4 @@
-package excFixVetores.employeesRegister.entites;
+package excFixVetores.employeesRegister.entities;
 
 public class Employee {
     public Integer id;

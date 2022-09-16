@@ -2,7 +2,7 @@ package introducaoPOO.ExcFix3.application;
 
 import java.util.Scanner;
 
-import introducaoPOO.ExcFix3.entites.Student;
+import introducaoPOO.ExcFix3.entities.Student;
 
 public class Program {
     public static void main(String[] args) {

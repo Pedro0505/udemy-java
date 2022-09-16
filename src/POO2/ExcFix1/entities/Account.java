@@ -1,4 +1,4 @@
-package POO2.ExcFix1.entites;
+package POO2.ExcFix1.entities;
 
 public class Account {
     private int accountNumber;

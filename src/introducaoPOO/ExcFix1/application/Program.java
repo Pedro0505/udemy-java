@@ -2,7 +2,7 @@ package introducaoPOO.ExcFix1.application;
 
 import java.util.Scanner;
 
-import introducaoPOO.ExcFix1.entites.Rectangle;
+import introducaoPOO.ExcFix1.entities.Rectangle;
 
 public class Program {
     public static void main(String[] args) {

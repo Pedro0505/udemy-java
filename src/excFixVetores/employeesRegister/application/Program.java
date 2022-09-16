@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import excFixVetores.employeesRegister.entites.Employee;
+import excFixVetores.employeesRegister.entities.Employee;
 
 public class Program {
     public static void main(String[] args) {

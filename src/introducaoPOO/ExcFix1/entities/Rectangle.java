@@ -1,4 +1,4 @@
-package introducaoPOO.ExcFix1.entites;
+package introducaoPOO.ExcFix1.entities;
 
 public class Rectangle {
     public double height;

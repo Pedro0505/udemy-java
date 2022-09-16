@@ -2,7 +2,7 @@ package POO2.ExcFix1.application;
 
 import java.util.Scanner;
 
-import POO2.ExcFix1.entites.Account;
+import POO2.ExcFix1.entities.Account;
 
 public class Program {
     public static void main(String[] args) {

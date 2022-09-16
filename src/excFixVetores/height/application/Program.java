@@ -2,7 +2,7 @@ package excFixVetores.height.application;
 
 import java.util.Scanner;
 
-import excFixVetores.height.entites.Person;
+import excFixVetores.height.entities.Person;
 
 public class Program {
     public static void main(String[] args) {

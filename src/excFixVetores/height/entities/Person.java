@@ -1,4 +1,4 @@
-package excFixVetores.height.entites;
+package excFixVetores.height.entities;
 
 public class Person {
     private String name;

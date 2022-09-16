@@ -2,7 +2,7 @@ package introducaoPOO.ExcFix2.application;
 
 import java.util.Scanner;
 
-import introducaoPOO.ExcFix2.entites.Employee;
+import introducaoPOO.ExcFix2.entities.Employee;
 
 public class Program {
     public static void main(String[] args) {
